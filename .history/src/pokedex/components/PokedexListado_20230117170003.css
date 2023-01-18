@@ -1,0 +1,23 @@
+.contenedor-listado{
+    background: rgb(129, 54, 54);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: blue orange;   /* scroll thumb and track */  
+
+}
+
+
+.listado-cajita{
+   margin: 5px;
+    background: red;
+    height: 7vh;
+  
+  
+}

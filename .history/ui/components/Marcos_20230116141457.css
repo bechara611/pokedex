@@ -1,0 +1,33 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.fila {
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.cuadrado {
+    width: 30px;
+    height: 30px;
+    background: blue;
+}
+
+.centro{
+    border: 1px solid black;
+  background: pink;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+
+}

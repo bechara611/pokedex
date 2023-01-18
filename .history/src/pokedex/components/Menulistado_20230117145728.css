@@ -1,0 +1,17 @@
+.contenedor-menu{
+
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+ 
+flex-wrap: wrap;
+}
+
+
+.input1{
+    font-size: 20px;
+    width: 50vw;
+}

@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100vw;
+   
+}
+
+.fila{
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cuadrado{
+    width: 30px;
+    height: 30px;
+    background: blue;
+}

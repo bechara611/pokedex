@@ -1,0 +1,11 @@
+.contenedor-menu{
+ 
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}

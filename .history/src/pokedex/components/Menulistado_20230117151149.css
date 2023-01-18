@@ -1,0 +1,37 @@
+.contenedor-menu{
+
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+ 
+
+}
+
+
+.input1{
+    font-size: 12px;
+    width: 45vw;
+    text-align: center;
+}
+
+.iconoMenu{
+    margin: 15px;
+    color: wheat;
+    font-size: 30px;
+}
+
+.iconoMenu:hover{
+    color: rgb(211, 246, 117);
+    cursor: pointer;
+}
+
+/**RESPONSIVE*/
+@media(max-width:385px){
+    .iconoMenu{
+
+        font-size: 20px;
+    }
+}

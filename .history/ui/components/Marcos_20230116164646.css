@@ -1,0 +1,58 @@
+.fondo{
+    background: rgb(7, 33, 48);
+    height: 100vh;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95vh;
+    max-height: 100vh;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.fila {
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.cuadrado {
+    width: 30px;
+    height: 30px;
+    background: blue;
+}
+.iconos{
+ width:100px;
+}
+
+.centro{
+    border: 0px solid black;
+    display: flex;
+    align-self: center;;
+    height:75vh;
+    width: 70vw;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+/*!Responsive*/
+
+/*?Cuando llegue a 230px las pokebolas del marco se colocaran mas small para evitar que se bajen*/
+
+@media(max-width:250px){
+    .iconos{
+     width: 80px;
+    }
+}
+@media(max-width:176px){
+    .iconos{
+     width: 65px;
+    }
+}
+

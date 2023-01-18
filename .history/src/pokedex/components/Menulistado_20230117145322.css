@@ -1,0 +1,13 @@
+.contenedor-menu{
+    background: green;
+    min-height: 5vh;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}

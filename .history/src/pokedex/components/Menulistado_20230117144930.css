@@ -1,0 +1,15 @@
+.contenedor-menu{
+    background: wheat;
+    margin: 10px;
+    padding: 10px;
+    height: 5vh;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}

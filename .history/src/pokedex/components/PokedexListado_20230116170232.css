@@ -1,0 +1,12 @@
+.contenedor-listado{
+    background: rgb(129, 54, 54);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.listado-cajita{
+    background: red;
+    height: 5vh;
+}
