@@ -1,0 +1,19 @@
+.contenedor-alerta{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10000;
+    top: 20px;
+}
+
+.alerta {
+    border: 1px solid wheat;
+   z-index: 10000;
+    background: rgb(215, 164, 164);
+    width: 50%;
+    min-width: 20%;
+    z-index: 100000000000000;
+}

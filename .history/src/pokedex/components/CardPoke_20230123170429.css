@@ -1,0 +1,28 @@
+.card {
+    margin: 10px;
+
+}
+
+.img-detalle {
+    width: 100%;
+
+}
+
+.contenedor-img {
+ 
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/*RESPONSIVE*/
+
+@media(max-width:900px ){
+
+}

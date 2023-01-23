@@ -1,0 +1,29 @@
+.contenedor-listado{
+    background: rgb(35, 35, 35,1);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+   overflow-y: auto;
+    overflow-x: hidden; 
+
+
+}
+
+
+.listado-cajita{
+   margin: 5px;
+    background: red;
+    height: 7vh;
+   
+  
+  
+}
+
+.imagenPokemon{
+    cursor: pointer;
+}

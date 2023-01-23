@@ -1,0 +1,38 @@
+.card {
+    margin: 10px;
+
+}
+
+.img-detalle {
+    width: 100%;
+
+}
+
+.contenedor-img {
+ 
+   
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/*RESPONSIVE*/
+
+@media(max-width:625px){
+ 
+.contenedor-img {
+    margin: 10px;
+}
+}
+
+
+@media(max-width:290px){
+    .texto-imagen-detalle{
+        font-size: 10px;
+    }
+}

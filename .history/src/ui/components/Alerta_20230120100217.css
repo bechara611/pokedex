@@ -1,0 +1,9 @@
+.alerta{
+  
+ position: fixed;
+ top: 0px;
+  background: rgb(215, 164, 164);
+  width: 20%;
+  min-width: 20%;
+    z-index: 100000000000000;
+}

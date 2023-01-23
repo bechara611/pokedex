@@ -1,0 +1,23 @@
+.contenedor-detalle{
+    background: rgb(201, 129, 129);
+   width: 100%;
+    padding: 5px;
+ 
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+.cuadro1{
+ 
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.NombrePokemon{
+    font-size: 20px;
+
+}

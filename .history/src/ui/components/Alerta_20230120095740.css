@@ -1,0 +1,7 @@
+.alerta{
+  
+ position: absolute;
+ top: 0px;
+  
+    z-index: 100000000000000;
+}

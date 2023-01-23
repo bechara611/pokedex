@@ -1,0 +1,8 @@
+.contenedor-detalle{
+    background: rgb(201, 129, 129);
+   
+    padding: 5px;
+ 
+    overflow-y: auto;
+    overflow-x: hidden; 
+}

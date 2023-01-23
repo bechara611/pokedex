@@ -1,0 +1,5 @@
+.alerta{
+    top: 100%;
+    position: fixed;
+    z-index: 100000000000000;
+}

@@ -1,0 +1,16 @@
+.contenedor-alerta{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.alerta {
+   
+    background: rgb(215, 164, 164);
+    width: 20%;
+    min-width: 20%;
+    z-index: 100000000000000;
+}

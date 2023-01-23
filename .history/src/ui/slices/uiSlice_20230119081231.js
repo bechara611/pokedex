@@ -1,0 +1,43 @@
+import { createSlice } from '@reduxjs/toolkit'
+
+const initialState = {
+ListaPage:true,
+DetallePage:false,
+paginaActual:1,
+paginaAnterior:0,
+resultadoPaginaActual:48,
+busqueda:false
+}
+
+const uiSlice = createSlice({
+  name: 'redux-interfaz',
+  initialState,
+  reducers: {
+    cambiarPaginaActualSiguiente:(state,action)=>{
+ 
+      if(action.payload===1){
+        state.paginaActual=state.paginaActual+1;
+        state.paginaAnterior=state.paginaAnterior+1;
+      }
+    },
+    cambiarPaginaActualAnterior:(state,action)=>{
+    
+  
+      if(action.payload===1 && state.paginaActual>1 && state.paginaAnterior>0){
+        state.paginaActual=state.paginaActual-1;
+        state.paginaAnterior=state.paginaAnterior-1;
+      }
+    },
+    onAplicoBusqueda:(state,action)=>{
+      if(state.busqueda===true){
+        state.busqueda=false
+      }else{
+        state.busqueda=true
+      }
+    }
+  }
+});
+
+export const {cambiarPaginaActualSiguiente,cambiarPaginaActualAnterior,onAplicoBusqueda} = uiSlice.actions
+
+export default uiSlice
