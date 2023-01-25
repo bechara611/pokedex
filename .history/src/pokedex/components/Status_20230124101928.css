@@ -1,0 +1,12 @@
+.contenedor-barra{
+    margin-top: 10px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.nombre-status{
+    font-size: 25px;
+}

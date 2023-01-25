@@ -1,0 +1,18 @@
+.contenedor-barra{
+
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+ 
+}
+
+.nombre-status{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10px;
+}

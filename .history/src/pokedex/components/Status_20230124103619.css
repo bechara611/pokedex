@@ -1,0 +1,23 @@
+.contenedor-barra{
+    margin-top: 3px;
+    margin-right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+  
+ 
+}
+
+.nombre-status{
+    font-size: 20px;
+
+    color: aliceblue;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+
+}
+.progress{
+    min-height: 30px;
+}

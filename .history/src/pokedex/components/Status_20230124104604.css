@@ -1,0 +1,40 @@
+.contenedor-barra{
+    margin-top: 3px;
+    margin-right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+  
+ 
+}
+
+.nombre-status{
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+
+}
+.status-value{
+    font-size: 18px;
+    color: azure;
+    margin: 5px;
+}
+.progress{
+    min-height: 30px;
+}
+
+/*RESPONSIVE*/
+
+@media(max-width:990px){
+    .contenedor-barra{
+        text-align: center;
+        justify-content: center;
+      
+    }
+  
+    
+}
